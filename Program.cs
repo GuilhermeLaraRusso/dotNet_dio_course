@@ -1,5 +1,28 @@
 ﻿using dotNet.Models;
 
+int soma = 0, numero = 0;
+
+
+do
+{
+    Console.WriteLine("Digite um número (0 para sair):");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero;
+
+} while (numero != 0);
+
+Console.WriteLine($"A soma dos números digitados é {soma}");
+
+
+
+
+
+
+
+
+
+
 // Calculadora calc = new Calculadora();
 
 // calc.Somar(10, 5);
