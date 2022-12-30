@@ -1,5 +1,25 @@
 ﻿using dotNet.Models;
 
+// Calculadora calc = new Calculadora();
+
+// calc.Somar(10, 5);
+// calc.Subtrair(10, 5);
+// calc.Multiplicar(10, 5);
+// calc.Dividir(10, 5);
+// calc.Potencia(10, 5);
+// calc.Seno(30);
+// calc.Cosseno(30);
+// calc.Tangente(30);
+// calc.RaizQuadrada(36);
+
+
+
+
+
+
+
+
+
 
 
 // DateTime dataAtual = DateTime.Now;
@@ -70,20 +90,20 @@
 
 
 
-// Switch Case
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
+// // Switch Case
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
 
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-    default:
-        Console.WriteLine("Consoante");
-        break;
-}
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+//     default:
+//         Console.WriteLine("Consoante");
+//         break;
+// }
