@@ -1,0 +1,12 @@
+D:\Projetos\dotNet\dotNet.Commom\bin\Debug\net7.0\dotNet.Commom.deps.json
+D:\Projetos\dotNet\dotNet.Commom\bin\Debug\net7.0\dotNet.Commom.dll
+D:\Projetos\dotNet\dotNet.Commom\bin\Debug\net7.0\dotNet.Commom.pdb
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.csproj.AssemblyReference.cache
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.AssemblyInfoInputs.cache
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.AssemblyInfo.cs
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.csproj.CoreCompileInputs.cache
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.dll
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\refint\dotNet.Commom.dll
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\dotNet.Commom.pdb
+D:\Projetos\dotNet\dotNet.Commom\obj\Debug\net7.0\ref\dotNet.Commom.dll
