@@ -1,5 +1,32 @@
 ﻿using dotNet.Models;
 
+
+int numero = 5;
+int contador = 0;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
+
+    // Quando o contador for igual a 6, o laço será interrompido, mesmo que a condição do while seja verdadeira
+    if (contador == 6)
+    {
+        break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // Calculadora calc = new Calculadora();
 
 // calc.Somar(10, 5);
