@@ -1,5 +1,25 @@
 ﻿using dotNet.Models;
 
+Console.WriteLine("Digite um numero: ");
+string? numeroString = Console.ReadLine();
+int numero = Convert.ToInt32(numeroString);
+// int numero = 5;
+
+for (int i = 0; i <= 10; i++)
+{
+    int tabuada = numero * i;
+    Console.WriteLine($"{numero} * {i} = {tabuada}");
+}
+
+
+
+
+
+
+
+
+
+
 // Calculadora calc = new Calculadora();
 
 // calc.Somar(10, 5);
