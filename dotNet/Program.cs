@@ -1,23 +1,98 @@
 ﻿using dotNet.Commom.Models;
 
-int[] arrayInteiros = new int[4];
 
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] = 50;
-arrayInteiros[3] = 10;
+List<string> listaString = new List<string>();
 
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+listaString.Add("SP");
+listaString.Add("RJ");
+listaString.Add("MG");
+listaString.Add("ES");
 
-// // Redimensionando o Array
-// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-// Percorrendo o Array com o FOR
-for (int i = 0; i < arrayInteiros.Length; i++)
-{
-    Console.WriteLine($"Posição {i} - Valor {arrayInteiros[i]}");
-}
+listaString.Add("RS");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("ES");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+
+
+
+
+
+// // Percorrendo a lista com o FOR
+// for(int index = 0; index < listaString.Count; index++)
+// {
+//     Console.WriteLine($"Posição {index} - Valor {listaString[index]}");
+// }
+
+// // Percorrendo a lista com o FOREACH
+// int contadorForeach = 0;
+// foreach(string estado in listaString)
+// {
+//     Console.WriteLine($"Estado {estado}");
+//     contadorForeach++;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int[] arrayInteiros = new int[4];
+
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+// arrayInteiros[3] = 10;
+
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// // // Redimensionando o Array
+// // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// // Percorrendo o Array com o FOR
+// for (int i = 0; i < arrayInteiros.Length; i++)
+// {
+//     Console.WriteLine($"Posição {i} - Valor {arrayInteiros[i]}");
+// }
 
 // int contadorForeach = 0;
 // //  Percorrendo o Array com o FOREACH
