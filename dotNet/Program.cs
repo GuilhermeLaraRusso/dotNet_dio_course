@@ -22,9 +22,8 @@ listaString.Remove("ES");
 
 Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-
-
-
+Calculadora calculadora = new Calculadora();
+calculadora.Somar(10, 20);
 
 
 
