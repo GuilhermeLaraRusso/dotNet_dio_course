@@ -7,6 +7,11 @@ namespace dotNet.Commom.Models
 {
     public class Calculadora
     {
+        /// <summary>
+        /// Calcula a soma de dois números
+        /// </summary>
+        /// <param name="x">O primeiro número inteiro</param>
+        /// <param name="y">O segundo número inteiro</param>
         public void Somar(int x, int y)
         {
             Console.WriteLine($"{x} + {y} = {x + y}");
