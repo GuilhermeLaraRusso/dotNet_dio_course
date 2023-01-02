@@ -1,43 +1,90 @@
 ﻿using dotNet.Commom.Models;
 
-string? opcao;
-bool exibirMenu = true;
+int[] arrayInteiros = new int[4];
 
-while (exibirMenu)
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 10;
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// // Redimensionando o Array
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Percorrendo o Array com o FOR
+for (int i = 0; i < arrayInteiros.Length; i++)
 {
-    // Console.Clear();
-    Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar cliente");
-    Console.WriteLine("2 - Buscar cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar");
-
-    opcao = Console.ReadLine();
-
-    switch (opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastrar cliente");
-            break;
-        case "2":
-            Console.WriteLine("Buscar cliente");
-            break;
-        case "3":
-            Console.WriteLine("Apagar cliente");
-            break; 
-        case "4":
-            Console.WriteLine("Encerrar");
-            // Environment.Exit(0);
-            exibirMenu = false;
-            break;
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
-    }
-
+    Console.WriteLine($"Posição {i} - Valor {arrayInteiros[i]}");
 }
 
-Console.WriteLine("Fim do programa");
+// int contadorForeach = 0;
+// //  Percorrendo o Array com o FOREACH
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição {contadorForeach} - Valor {valor}");
+//     contadorForeach++;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string? opcao;
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     // Console.Clear();
+//     Console.WriteLine("Digite a sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");
+
+//     opcao = Console.ReadLine();
+
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastrar cliente");
+//             break;
+//         case "2":
+//             Console.WriteLine("Buscar cliente");
+//             break;
+//         case "3":
+//             Console.WriteLine("Apagar cliente");
+//             break; 
+//         case "4":
+//             Console.WriteLine("Encerrar");
+//             // Environment.Exit(0);
+//             exibirMenu = false;
+//             break;
+//         default:
+//             Console.WriteLine("Opção inválida");
+//             break;
+//     }
+
+// }
+
+// Console.WriteLine("Fim do programa");
 
 
 
